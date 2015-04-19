@@ -1,0 +1,245 @@
+body {
+	background-color: #fff;
+}
+
+.logo-wrap {
+	position: absolute;
+	width: 280px;
+	height: 280px;
+	left: 50%;
+	top: 50%;
+	margin-top: -140px;
+	margin-left: -140px;
+	border-radius: 50%;
+	background-color: #000;
+	-webkit-transform: scale(0);
+	-webkit-animation: logo 5s forwards;
+}
+
+@-webkit-keyframes logo {
+	from {
+		-webkit-transform: scale(0);
+	}
+	15% {
+		-webkit-transform: scale(1.5);
+	}
+	50% {
+		-webkit-transform: scale(1);
+	}
+	to {
+		-webkit-transform: scale(1);
+	}
+}
+
+.circle-outter {
+	position: absolute;
+	width: 264px;
+	height: 264px;
+	top: 8px;
+	left: 8px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+
+.cirle-inner {
+	position: absolute;
+	width: 256px;
+	height: 256px;
+	top: 4px;
+	left: 4px;
+	border-radius: 50%;
+	background-color: #000;
+}
+
+.cirle-inner font {
+	display: block;
+	-webkit-transform: scale(0);
+	-webkit-animation: popUp 250ms ease forwards;
+}
+
+@-webkit-keyframes popUp {
+	from {
+		-webkit-transform: scale(0);
+	}
+	80% {
+		-webkit-transfoem: scale(1.3);
+	}
+	to {
+		-webkit-transform: scale(1);
+	}
+}
+
+.cirle-inner .top {
+	position: absolute;
+	width: 40px;
+	height: 120px;
+	line-height: 48px;
+	left: 50%;
+	top: 0;
+	margin-left: -20px;
+	font-size: 40px;
+	color: #fff;
+	font-weight: bold;
+	-webkit-transform-origin: bottom center;
+}
+
+.cirle-inner .top.letter1 {
+	-webkit-transform: rotate(-60deg);
+}
+
+.cirle-inner .top.letter2 {
+	-webkit-transform: rotate(-45deg);
+}
+
+.cirle-inner .top.letter3 {
+	-webkit-transform: rotate(-25deg);
+}
+
+.cirle-inner .top.letter4 {
+	-webkit-transform: rotate(10deg);
+}
+
+.cirle-inner .top.letter5 {
+	-webkit-transform: rotate(25deg);
+}
+
+.cirle-inner .top.letter6 {
+	-webkit-transform: rotate(40deg);
+}
+
+.cirle-inner .top.letter7 {
+	-webkit-transform: rotate(55deg);
+}
+
+.cirle-inner .top.letter8 {
+	-webkit-transform: rotate(75deg);
+}
+
+.cirle-inner .top.letter1 font {
+	-webkit-animation-delay: 1000ms;
+}
+
+.cirle-inner .top.letter2 font {
+	-webkit-animation-delay: 1050ms;
+}
+
+.cirle-inner .top.letter3 font {
+	-webkit-animation-delay: 1100ms;
+}
+
+.cirle-inner .top.letter4 font {
+	-webkit-animation-delay: 1150ms;
+}
+
+.cirle-inner .top.letter5 font {
+	-webkit-animation-delay: 1200ms;
+}
+
+.cirle-inner .top.letter6 font {
+	-webkit-animation-delay: 1250ms;
+}
+
+.cirle-inner .top.letter7 font {
+	-webkit-animation-delay: 1300ms;
+}
+
+.cirle-inner .top.letter8 font {
+	-webkit-animation-delay: 1350ms;
+}
+
+.cirle-inner .bottom {
+	position: absolute;
+	width: 40px;
+	height: 120px;
+	line-height: 214px;
+	left: 50%;
+	top: 50%;
+	margin-left: -20px;
+	font-size: 40px;
+	color: #fff;
+	font-weight: bold;
+	-webkit-transform-origin: top center;
+}
+
+.cirle-inner .bottom.letter1 {
+	-webkit-transform: rotate(-310deg);
+}
+
+.cirle-inner .bottom.letter2 {
+	-webkit-transform: rotate(-335deg);
+}
+
+.cirle-inner .bottom.letter3 {
+	-webkit-transform: rotate(-350deg);
+}
+
+.cirle-inner .bottom.letter4 {
+	-webkit-transform: rotate(-365deg);
+}
+
+.cirle-inner .bottom.letter5 {
+	-webkit-transform: rotate(-385deg);
+}
+
+.cirle-inner .bottom.letter6 {
+	-webkit-transform: rotate(-405deg);
+}
+
+.cirle-inner .bottom.letter7 {
+	-webkit-transform: rotate(-427deg);
+}
+
+.cirle-inner .bottom.letter1 font {
+	-webkit-animation-delay: 1150ms;
+}
+
+.cirle-inner .bottom.letter2 font {
+	-webkit-animation-delay: 1200ms;
+}
+
+.cirle-inner .bottom.letter3 font {
+	-webkit-animation-delay: 1250ms;
+}
+
+.cirle-inner .bottom.letter4 font {
+	-webkit-animation-delay: 1300ms;
+}
+
+.cirle-inner .bottom.letter5 font {
+	-webkit-animation-delay: 1350ms;
+}
+
+.cirle-inner .bottom.letter6 font {
+	-webkit-animation-delay: 1400ms;
+}
+
+.cirle-inner .bottom.letter7 font {
+	-webkit-animation-delay: 1450ms;
+}
+
+.logo {
+	position: absolute;
+	width: 158px;
+	height: 158px;
+	padding: 2px;
+	top: 48px;
+	left: 48px;
+	border-radius: 50%;
+	background-color: #fff;
+	-webkit-animation: rotating 3000ms forwards;
+}
+
+@-webkit-keyframes rotating {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+	80% {
+		-webkit-transform: rotate(320deg);
+	}
+	90% {
+		-webkit-transform: rotate(360deg);
+	}
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
