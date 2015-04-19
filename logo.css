@@ -226,20 +226,24 @@ body {
 	left: 48px;
 	border-radius: 50%;
 	background-color: #fff;
+	-webkit-transform: scale(0);
 	-webkit-animation: rotating 3000ms forwards;
 }
 
 @-webkit-keyframes rotating {
 	from {
-		-webkit-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg) scale(0);
 	}
-	80% {
-		-webkit-transform: rotate(320deg);
+	60% {
+		-webkit-transform: rotate(320deg) scale(0);
 	}
-	90% {
-		-webkit-transform: rotate(360deg);
+	70% {
+		-webkit-transform: rotate(320deg) scale(1);
+	}
+	96% {
+		-webkit-transform: rotate(340deg) scale(1);
 	}
 	to {
-		-webkit-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg) scale(1);
 	}
 }
