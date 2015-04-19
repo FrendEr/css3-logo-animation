@@ -2,4 +2,4 @@
 My logo animation by css3.
 
 Demo:
-![demo](./demo.jpg)
+![demo](./demo.png)
