@@ -1,2 +1,5 @@
 # CSS3-logo-animation
-This is a logo animation by css3.
+My logo animation by css3.
+
+Demo:
+![demo](./demo.jpg)
