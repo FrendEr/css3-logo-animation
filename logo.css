@@ -221,29 +221,44 @@ body {
 	position: absolute;
 	width: 158px;
 	height: 158px;
+	border: 2px solid #fff;
 	padding: 2px;
 	top: 48px;
 	left: 48px;
 	border-radius: 50%;
-	background-color: #fff;
+	background: url(./logo.png) #fff no-repeat center;
+	background-size: cover;
 	-webkit-transform: scale(0);
 	-webkit-animation: rotating 3000ms forwards;
 }
 
 @-webkit-keyframes rotating {
 	from {
+		background-image: url(./logo.png);
 		-webkit-transform: rotate(0deg) scale(0);
 	}
-	60% {
+	30% {
+		background-image: url(./logo.png);
 		-webkit-transform: rotate(320deg) scale(0);
 	}
-	70% {
+	40% {
+		background-image: url(./logo.png);
 		-webkit-transform: rotate(320deg) scale(1);
 	}
-	96% {
+	66% {
+		background-image: url(./logo.png);
 		-webkit-transform: rotate(340deg) scale(1);
 	}
-	to {
+	75% {
+		background-image: url(./logo.png);
 		-webkit-transform: rotate(360deg) scale(1);
+	}
+	80% {
+		background-image: url(./logo.png);
+		-webkit-transform: scale(0.9);
+	}
+	to {
+		-webkit-transform: scale(0.9);
+		background-image: url(./logo-light.png);
 	}
 }
